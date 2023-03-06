@@ -1,0 +1,2 @@
+cor: #BFE4EC AZUL
+     #BCBCF0 ROXO
