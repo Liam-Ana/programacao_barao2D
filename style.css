@@ -1,23 +1,40 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Clean Paws - Pet Shop</title>
-</head>
-<body>
-    <header class="header">
-        <img src="cleanpaws.png" alt="" class="logo">
-        <nav>
-            <ul class="menu">
-                <li><a href="cleanpaws.html">Home</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-</body>
-</html>
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 320px;
+    margin-top: -40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    background-color: #BFE4EC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    background-color: #BCBCF0;
+}
