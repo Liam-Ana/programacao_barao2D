@@ -38,3 +38,12 @@ a{
     padding: 15px;
     background-color: #BCBCF0;
 }
+
+.imagem {
+    width: 400px;
+    height: auto;
+}
+
+body{
+    background-color: #BCBCF0;
+}
