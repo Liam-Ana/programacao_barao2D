@@ -17,7 +17,7 @@ a{
 }
 
 .header{
-    background-color: #BFE4EC;
+    background-color: #BCBCF0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,12 +36,12 @@ a{
 .menu li a{
     display: block;
     padding: 15px;
-    background-color: #BCBCF0;
+    background-color: #BFE4EC;
 }
 
 .flex{
     min-width: 100vh;
-    background-color: #BCBCF0;
+    background-color: #BFE4EC;
     display: flex;
     flex-direction: column;
 }
@@ -51,7 +51,7 @@ a{
 }
 
 body{
-    background-color: #BCBCF0;
+    background-color: #BFE4EC;
 }
 
 .item{
