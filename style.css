@@ -6,6 +6,11 @@ body, ul, li, p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+}
+
 .logo{
     width: 320px;
     margin-top: -40px;
