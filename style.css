@@ -48,11 +48,14 @@ a{
     min-width: 100vh;
     background-color: #BFE4EC;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imagem {
     height: auto;
+    width: 400px;
 }
 
 body{
@@ -60,8 +63,8 @@ body{
 }
 
 .item{
-    display: flex;
-    align-items: flex-start;
+    display: flow-root;
+    align-items: center;
     border: 5px solid #BCBCF0;
     margin: 10px;
 }
